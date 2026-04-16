@@ -11,12 +11,12 @@ const Hero = () => {
     <div id="about" className="bg-white pt-20 lg:pb-20 lg:pt-[100px] relative overflow-hidden">
       <div className="w-full max-w-[1264px] mx-auto px-8">
         <div className="flex flex-col lg:flex-row md:justify-between items-center gap-6">
-          <div className="w-full lg:max-w-[550px]">
+          <div className="w-full lg:max-w-[640px]">
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-[1.2] mb-5">
               Hello, I'm
               <br /> Umar Dawood
             </h2>
-            <p className="text-lg text-[#828282] mb-8 max-w-lg">
+            <p className="text-lg text-[#828282] mb-8">
               I'm a Frontend Developer with 9+ years of experience building responsive
                and user-friendly web interfaces from Figma, and other
                 design tools. Highly skilled in HTML, CSS, Tailwind CSS, and
@@ -57,15 +57,6 @@ const Hero = () => {
                 </div>
               ))}
             </div>
-          </div>
-          <div className="hidden lg:flex items-center justify-center w-[280px] h-[280px] lg:w-[400px] lg:h-[400px] xl:w-[500px] xl:h-[500px] rounded-3xl overflow-hidden shadow-2xl">
-            <img
-              src="/images/umar.jpg"
-              alt="Bg Image"
-              className="w-full h-full object-cover"
-              width={500}
-              height={500}
-            />
           </div>
         </div>
       </div>

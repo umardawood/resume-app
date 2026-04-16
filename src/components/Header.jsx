@@ -26,7 +26,7 @@ const Header = () => {
               href="#"
               className="inline-flex text-2xl md:text-4xl leading-[1] text-emerald-600 font-bold"
             >
-              UD
+              Portfolio
             </a>
             <button className="flex items-center justify-center md:hidden" onClick={toggleMenu}>
               <MenuIcon className="h-5 w-5 text-gray-600" />
